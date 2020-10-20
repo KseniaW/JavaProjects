@@ -6,7 +6,7 @@ public class ForLoop {
 		//Good morning5 times
 		
 		for(int i=1; i<=5; i++) {
-			System.out.println("Good morning");
+			System.out.println("Good mornin");
 		}
 
 	}
