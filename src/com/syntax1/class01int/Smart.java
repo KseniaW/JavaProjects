@@ -7,5 +7,7 @@ public class Smart {
         s.model="XMax";
         s.color="blue";
        s.pics();
+    s.call(" 878768");
+    s.text(" o7878");
     }
 }

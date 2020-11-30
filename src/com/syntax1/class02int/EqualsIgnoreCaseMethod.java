@@ -1,0 +1,11 @@
+package com.syntax1.class02int;
+
+public class EqualsIgnoreCaseMethod {
+    public static void main(String[] args) {
+
+        String name="Marta";
+        String name2="MARTA";
+        System.out.println(name.equalsIgnoreCase(name2));
+        System.out.println(name2.equalsIgnoreCase(name));
+    }
+}

@@ -8,13 +8,24 @@ public class AccountClass {
     double limit;
     String TypeOfAccount;
     boolean isBlocked;
-   boolean login(String enteredUserName, String enteredPassword){
-       if(UserName.equals(enteredUserName)&& Password.equals(enteredPassword)) {
-           return true;
 
-       }else{
-           return false;
-       }
+    double amountTransfer (double amounttoTransfer){
+        if (amounttoTransfer < balance) {
+            return balance = balance - amounttoTransfer;
+        } else {
+            return 0;
+        }
+    }
 
-   }
+    boolean login(String enteredUserName, String enteredPassword) {
+        if (UserName.equals(enteredUserName) && Password.equals(enteredPassword)) {
+            return true;
+
+        } else {
+            return false;
+        }
+
+
+
+    }
 }
